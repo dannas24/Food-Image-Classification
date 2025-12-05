@@ -8,7 +8,7 @@ The goal is to compare classical machine learning models, a custom convolutional
 ## Project Overview
 
 - **Dataset:** 10-class subset of Food-101 (2,500 training images, 750 test images; 250/75 per class).  
-- **Classes:** chicken curry, chicken wings, fried rice, grilled salmon, hamburger, ice cream, pizza, ramen, steak, sushi. [file:2]
+- **Classes:** chicken curry, chicken wings, fried rice, grilled salmon, hamburger, ice cream, pizza, ramen, steak, sushi.
 - **Task:** Top-1 multi-class image classification.
 - **Key question:** How much more effective are modern deep transfer-learning architectures (EfficientNetV2B0) than classical ML models using the same deep features? 
 
@@ -81,7 +81,7 @@ Transfer‑learning performance: **79.6% test accuracy**, beating both classical
 | Custom CNN (from scratch)             | 62.53%        |
 | EfficientNetV2B0 (transfer learning)   | 79.6%         |
 
-Deep transfer learning with EfficientNetV2B0 more than doubles the accuracy of the best classical baseline and substantially outperforms the custom CNN while training only a small classification head. [file:2][file:4]
+Deep transfer learning with EfficientNetV2B0 more than doubles the accuracy of the best classical baseline and substantially outperforms the custom CNN while training only a small classification head. 
 
 ---
 ## How to Run
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 You can open the notebooks locally or in Google Colab (Colab is preffered to tae advantage of free GPU access).
 
 - `classical_models_training.ipynb` — runs the feature extraction and classical ML experiments.  
-- `neural_models_training.ipynb` — trains the custom CNN and EfficientNetV2B0 models and generates plots used in the report. [file:4]
+- `neural_models_training.ipynb` — trains the custom CNN and EfficientNetV2B0 models and generates plots used in the report. 
 
 ---
 
