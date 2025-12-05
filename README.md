@@ -1,7 +1,7 @@
 # Food-101 Subset: Classical ML vs. CNNs vs. Transfer Learning
 
 This repository contains the code and report for my a study on food image classification.  
-The goal is to compare classical machine learning models, a custom convolutional neural network (CNN), and a transfer-learning model based on EfficientNetV2B0 on a 10-class subset of the Food-101 dataset. [file:2][file:4]
+The goal is to compare classical machine learning models, a custom convolutional neural network (CNN), and a transfer-learning model based on EfficientNetV2B0 on a 10-class subset of the Food-101 dataset. 
 
 ---
 
