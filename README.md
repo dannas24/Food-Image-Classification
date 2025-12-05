@@ -22,19 +22,9 @@ food-image-classification/
 ├── requirements.txt
 ├── classical_models_training.ipynb
 ├── neural_models_training.ipynb
-├── report/
-│   └── Nasibu_Final_Report.pdf
+├── report.pdf
 ├── data/ 
 
-food-image-classification/
-├─ README.md
-├─ requirements.txt
-├─ classical_models_training.ipynb
-├─ neural_models_training.ipynb
-├─ report/
-│ └─ Nasibu_Final_Report.pdf
-├─ data/ (optional, if small sample images or scripts to download Food-101 subset)
-└─ src/ (optional, reusable Python scripts if you refactor notebooks later)
 
 - **`classical_models_training.ipynb`**  
   Loads a frozen EfficientNetV2B0 backbone, extracts 1,280‑D feature vectors, and trains classical models:
