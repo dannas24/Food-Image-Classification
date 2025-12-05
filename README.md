@@ -94,7 +94,7 @@ Create a virtual environment (optional) and install dependencies:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 
 3. **Run the notebooks**
 
