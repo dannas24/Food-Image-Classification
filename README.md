@@ -35,7 +35,7 @@ food-image-classification/
   1. A custom CNN trained from scratch.  
   2. An EfficientNetV2B0 transfer‑learning model with a frozen base and trainable classification head. 
 
-- **`report/`**  
+- **`Technical Report.pdf`**  
   Contains the full technical report (PDF) describing methodology, experiments, and results in detail. 
 
 ---
